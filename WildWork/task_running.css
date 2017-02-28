@@ -1,0 +1,80 @@
+ body {
+  background-color:white;
+ }
+   #navbar-header{
+  font-family: "Arial-black";
+  color: #7339ac;
+ }
+ 
+
+ #date {
+  margin-top: 10px;
+  position:relative;
+  font-family: "Arial";
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+  color: #a6a6a6;
+  vertical-align: middle;
+ }
+
+ #time {
+  position:relative;
+  font-family: "Arial";
+  font-style: bold; 
+  font-size: 90px;
+  text-align: center;
+  color: #a6a6a6;
+  vertical-align: middle;
+ }
+
+
+#elapsed_time {
+	font-family: "Arial";
+ 	position: relative;
+ 	left:75%;
+  margin-top:8px;
+ 	color: red;
+}
+
+
+ #current_task {
+ 	margin-right: 40px;
+ 	position:relative;
+ 	font-family: "Arial";
+ 	font-style: italic;
+ 	font-size: 40px;
+ 	text-align: right;
+ 	color: #a6a6a6;
+ }
+
+#task_complete {
+	cursor: pointer;
+	position: relative;
+    left:950px;
+    width: 15%;
+  background-color: #0052cc;
+  color: white;
+  font-size: 20px;
+  padding: 14px;
+  margin-top:10px;
+  border: none;
+  border-radius: 4px;
+  text-align:center;
+}
+
+#task_complete:hover {
+    background-color: #3385ff;
+    color: white;
+}
+
+
+ #my_task {
+ 	position:relative;
+ 	left:85%;
+ 	font-family: "Arial";
+ 	font-size: 30px;
+ 	color: #80b3ff;
+ 	vertical-align: middle;
+ }
+

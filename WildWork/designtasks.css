@@ -1,0 +1,157 @@
+ body {
+  /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
+  background-color:white;
+
+ }
+ 
+   #navbar-header{
+  font-family: "Arial-black";
+  color: #7339ac;
+ }
+
+ #title_box {
+ 	text-align:center;
+ 	vertical-align: middle;
+    font-family: "Arial";
+    font-style: bold;
+    font-size: 50px;
+    color: #a6a6a6; 
+    position: relative;
+ 	}
+
+
+#profile_box {
+    color:#000000; 
+    cursor:pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+ }
+
+ img{
+     border-radius: 50%;
+     width:100px;
+     height:100px;
+ }
+
+
+ #getstarted_box {
+ 	color:green;
+ 	font-family: "Arial";
+ 	font-size: 50px;
+ 	font-style: bold;
+ 	text-shadow: 1px 1px; 
+ 	text-align: center;
+ 	margin-top: 30px;
+ 	border-style: solid;
+ 	border-width: 9px;
+ 	border-color:white;
+ 	width:fit-content;
+ 	margin-left: 700px;
+
+ }
+
+ table, th, td {
+    border: 1px solid white;
+    font-family: "Lucida Sans Unicode";
+    color: white;
+    text-align: left;
+}
+
+#spacer {
+	height: 100px;
+}
+
+#spacer2{
+	height: 50px;
+}
+
+#spacer3{
+	height: 65px;
+}
+
+
+#input_box1,#input_box2,#input_box3,#input_box4,#input_box5,#input_box6{
+	position: relative;
+	right:60px;
+	padding:10px;
+	margin-top:21px;
+	background: #c0c0c0;
+	font-size: 25px;
+	font-family: "Arial";
+	color:black;
+	opacity: .7;
+	border-radius: 20px;
+	transform: translateY(180%);
+	transform: translateX(50%);
+	height:fit-content;
+	width: 200px;
+}
+
+#due_date1,#due_date2,#due_date3,#due_date4,#due_date5,#due_date6 {
+	position: relative;
+	bottom:30px;
+}
+
+#cal1,#cal2,#cal3,#cal4,#cal5,#cal6 {
+	position: relative;
+	left:30px;
+	bottom:30px;
+}
+
+#task_type1,#task_type2,#task_type3,#task_type4,#task_type5,#task_type6 {
+	position: relative;
+	left:30px;
+	bottom:45px;
+	margin-top:5px;
+}
+
+
+#dropdown1 {
+    position: absolute;
+    top: 210px;
+    right: 600px;
+}
+
+#dropdown2 {
+	position: absolute;
+	top: 225px;
+	right: 425px;
+}
+
+#scale1,#scale2,#scale3,#scale4,#scale5,#scale6{
+	position: relative;
+	left: 900px;
+	bottom:600px;
+	margin-top:45px;
+	width:250px;
+	font-size: 20px;
+	color: #a6a6a6;
+	font-family: "Arial";
+ 	font-style: bold;
+}
+
+
+#continue_button {
+  cursor: pointer;
+  position: absolute;
+  right:20px;
+  width: 30%;
+  margin-bottom: 20px;
+  background-color: #0052cc;
+  color: white;
+  font-size: 30px;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  text-align:center;
+  bottom:-200px;
+
+
+}
+
+#continue_button:hover {
+    background-color: #3385ff;
+    color: white;
+}
+
+

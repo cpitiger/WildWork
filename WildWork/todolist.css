@@ -1,0 +1,132 @@
+ body {
+  background-color:white;
+ }
+
+   #navbar-header{
+  font-family: "Arial-black";
+  color: #7339ac;
+ }
+ 
+ #date {
+ 	margin-top: 10px;
+ 	position:relative;
+ 	font-family: "Arial";
+ 	font-style: italic;
+ 	font-size: 40px;
+ 	text-align: center;
+ 	color: #a6a6a6;
+ 	vertical-align: middle;
+ }
+
+ #time {
+ 	position:relative;
+ 	font-family: "Arial";
+ 	font-style: bold; 
+ 	font-size: 90px;
+ 	text-align: center;
+ 	color: #a6a6a6;
+ 	vertical-align: middle;
+ }
+
+
+#To-Do-List {
+	list-style-type: square;
+	padding-right:-20px;
+	background: #c6c5c8;
+	width: 550px;
+	opacity: 0.8;
+	padding-bottom: 5px;
+	border-radius: 4px;	
+	
+}
+#input_box1,#input_box2,#input_box3,#input_box4,#input_box5,#input_box6{
+	position: relative;
+	font-family: "Arial";
+ 	font-size: 25px;
+ 	left:2%;
+ 	margin-bottom: 20px;
+ 	width: fit-content;
+ 	color:#000000;
+}
+
+
+
+#b1,#b2,#b3,#b4,#b5,#b6 {
+	cursor:pointer;
+	position: relative;
+	left:60%;
+	top: -55px;
+  	padding: 10px;
+  	margin-left: 10px;
+  	border-radius: 4px;
+ 	text-align:center;
+ 	background-color: #0052cc;
+  	color: white;
+  	font-size:16px;
+}
+#b1:hover{
+	background-color: #3385ff;
+	color: white;
+}
+#b2:hover{
+	background-color: #3385ff;
+	color: white;
+}
+#b3:hover{
+	background-color: #3385ff;
+	color: white;
+}
+#b4:hover{
+	background-color: #3385ff;
+	color: white;
+}
+#b5:hover{
+	background-color: #3385ff;
+	color: white;
+}
+#b6:hover{
+	background-color: #3385ff;
+	color: white;
+}
+
+#new_task {
+	cursor:pointer;
+	position: relative;
+  	padding: 10px;
+  	border-radius: 4px;
+ 	text-align:center;
+ 	background-color: #404040;
+  	color: white;
+  	left:310px;
+	bottom:20px;
+	width: 150px;
+}
+#new_task:hover{
+	background-color: #707070;
+	color: white;
+}
+
+
+#todolist_title {
+	list-style-type: none;
+	position: relative;
+	left: 0%;
+	font-family: "Arial";
+ 	font-style: bold;
+ 	font-size: 30px;
+ 	top:25px;
+ 	color:red;
+}
+
+#dt1,#dt2,#dt3,#dt4,#dt5,#dt6 {
+	cursor:pointer;
+	position: relative;
+	left:62%;
+	top: -55px;
+  	padding: 5px;
+  	border-radius: 4px;
+ 	text-align:center;
+ 	background-color: red;
+  	color: white;
+}
+

@@ -1,0 +1,49 @@
+ body {
+  /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
+  background-color: white;
+ }
+  #navbar-header{
+  font-family: "Arial-black";
+  color: #7339ac;
+ }
+
+ #date {
+ 	margin-top: 100px;
+ 	position:relative;
+ 	font-family: "Arial";
+  font-style: italic;
+ 	font-size: 60px;
+ 	text-align: center;
+ 	color: #a6a6a6;
+ 	vertical-align: middle;
+ }
+
+ #time {
+ 	position:relative;
+ 	font-family: "Arial";
+ 	font-style: bold; 
+ 	font-size: 130px;
+ 	text-align: center;
+ 	color: #a6a6a6;
+ 	vertical-align: middle;
+ }
+
+
+
+ #getstarted_button{
+ 	cursor: pointer;
+ 	display: block;
+ 	margin: auto;
+ 	width: 50%;
+    background-color: #0052cc;
+    color: white;
+    font-size: 30px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+ }
+
+#getstarted_button:hover {
+    background-color: #3385ff;
+    color: white;
+}
